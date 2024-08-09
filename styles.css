@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.cta-consultants, .cta-companies {
+    background-color: #e3e3e3;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
